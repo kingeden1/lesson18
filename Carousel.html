@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carouscel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Carouscel</h2>
+    <div id="MyCarousel" class="Carouscel slide" data-ride="Carouscel"> 
+        <ol class="Carouscel-indicators">
+            <li data-target="#MyCarouscel" data-slide-to="0" class="active"></li> 
+            <li data-target="#MyCarouscel" data-slide-to="1" ></li>
+            <li data-target="#MyCarouscel" data-slide-to="2" ></li> 
+
+            <div class="Carouscel-inner"></div>
+                <div class="item active">
+                    <img src="car1.JPG" height="200px" width="400px>
+                        <div class="item ">
+                            <img src="car2.JPG" height="200px" width="400px">  
+                            <div class="item ">
+                                <img src="car3.JPG" height="200px" width="400px"> 
+                </div>
+            </div>
+        </ol>
+        <a class="left carouscel-control" href=""data-slide=prev>
+            <span class="glyphion glyphion-chevron-left"></span>
+            <span class="sr-only">previous</span>
+        </a>
+        <a class="right carouscel-control" href="#Mycarouscel"data-slide=prev>
+            <span class="glyphion glyphion-chevron-right"></span>
+            <span class="sr-only">Next
+            </span>
+        </a> 
+    </div>
+</div>    
+</body>
+</html>
